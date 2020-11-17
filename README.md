@@ -20,6 +20,6 @@ Python and PySerial are needed. To install it, open a Terminal and type:
 `make rebuild`
 
 You can use `-jN` gcc parameter to use `N` CPU threads.
-For example, if your CPU has 4 cores with HyperThreading, you can use:
+For example, if your CPU has 10 cores with HyperThreading, you can use:
 
-`make -j8 rebuild`
+`make -j20 rebuild`
