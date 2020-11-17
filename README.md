@@ -4,6 +4,7 @@ Compiled esp-open-sdk image to use directly with macOS, without any additional l
 
 Source code: https://github.com/pfalcon/esp-open-sdk
 
+[![GitHub download](https://img.shields.io/github/downloads/RavenSystem/esp-open-sdk-macos-image/total.svg)](https://github.com/RavenSystem/esp-open-sdk-macos-image/releases/latest)
 [![Donate](https://img.shields.io/badge/donate-PayPal-blue.svg)](https://paypal.me/ravensystem)
 
 Download from releases, unzip, double click to mount, and add it to PATH:
