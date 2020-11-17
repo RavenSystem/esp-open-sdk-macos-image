@@ -1,5 +1,7 @@
 # esp-open-sdk macOS image file
 
+[![Donate](https://img.shields.io/badge/donate-PayPal-blue.svg)](https://paypal.me/ravensystem)
+
 Compiled image to use directly with macOS, without any additional layer.
 
 Source code: https://github.com/pfalcon/esp-open-sdk
