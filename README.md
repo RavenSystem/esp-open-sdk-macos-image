@@ -9,19 +9,26 @@ Source code: https://github.com/pfalcon/esp-open-sdk
 
 Download from releases, unzip, double click to mount, and add it to PATH:
 
-`PATH=$PATH:/Volumes/esp-open-sdk/esp-open-sdk/xtensa-lx106-elf/bin`
+```shell
+export PATH=$PATH:/Volumes/esp-open-sdk/esp-open-sdk/xtensa-lx106-elf/bin
+```
 
 Python and PySerial are needed. To install it, open a Terminal and type:
 
-`sudo easy_install pip`
-
-`pip install pyserial`
+```shell
+sudo easy_install pip
+pip install pyserial
+```
 
 * To compile, go to directory where source code is, and type:
 
-`make rebuild`
+```shell
+make rebuild
+```
 
 You can use `-jN` gcc parameter to use `N` CPU threads.
 For example, if your CPU has 10 cores with HyperThreading, you can use:
 
-`make -j20 rebuild`
+```shell
+make -j20 rebuild
+```
