@@ -17,6 +17,7 @@ Python and PySerial are needed. To install it, open a Terminal and type:
 `pip install pyserial`
 
 * To compile, go to directory where source code is, and type:
+
 `make rebuild`
 
 You can use `-jN` gcc parameter to use `N` CPU threads.
