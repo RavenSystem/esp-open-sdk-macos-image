@@ -1,0 +1,1 @@
+# esp-open-sdk-macos-image
