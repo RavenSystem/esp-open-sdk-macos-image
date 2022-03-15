@@ -13,11 +13,10 @@ Download from releases, unzip, double click to mount, and add it to PATH:
 export PATH=$PATH:/Volumes/esp-open-sdk/esp-open-sdk/xtensa-lx106-elf/bin
 ```
 
-Python and PySerial are needed. To install it, open a Terminal and type:
+Python and ESPTool are needed. To install them, open a Terminal and type:
 
 ```shell
-sudo easy_install pip
-pip install pyserial
+python3 -m pip install esptool
 ```
 
 * To compile, go to directory where source code is, and type:
